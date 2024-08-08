@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #dff2ff;
+    font-family: 'Poppins', sans-serif;
+}
+.box{
+    width: 450px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 35px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.button-find-city {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: #1a66cc;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button-find-city:hover {
+    background-color: #33ccff;
+}
+.button-find-city:active {
+    background-color: #1a66cc;
+}
+.input-city-name{
+    background-color: #ffffff;
+    margin-top: 10px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-family: 'Poppins', sans-serif;
+}
